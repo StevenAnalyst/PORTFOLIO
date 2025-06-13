@@ -10,7 +10,7 @@
     width: 100%;
     height: 720px;
     background: rgb(0,0,0);
-    background: linear-gradient(18deg, rgba(0,0,0,1) 18%, rgba(27,27,57,1) 63%);
+    background: linear-gradient(-10deg, rgba(0,0,0,1) 18%, rgba(27,27,57,1) 95%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,6 +239,122 @@
 
 .boton-descargarcv:hover{
     background-color: #131315;
+}
+
+.projects-section {
+  padding: 5rem 2rem;
+  text-align: center;
+  background-color: black;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #dbeafe;
+  margin-bottom: 4rem;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-card {
+  width: 400px;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.project-image img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+.project-desc {
+  font-size: 1rem;
+  color: #94a3b8;
+  margin-bottom: 0.8rem;
+  text-align: left;
+  width: 100%;
+}
+
+.project-tech {
+  font-size: 0.95rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-top: auto;
+}
+
+.btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  background-color: #1B1B38;
+  color: white;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0c0c19;
+}
+
+.btn-secondary {
+  background-color: black;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: black;
 }
 
 @keyframes bg{
