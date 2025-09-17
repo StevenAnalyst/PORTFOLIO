@@ -9,6 +9,6 @@ document.getElementById("copiarEmail").addEventListener("click", function (event
 
         setTimeout(() => {
           toast.classList.remove("show");
-        }, 2500);
+        }, 2000);
       });
     });

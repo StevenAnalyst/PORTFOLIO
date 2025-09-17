@@ -25,36 +25,38 @@
     flex-direction: column;
 }
 
-.presentacion header{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-    .idiomas{
-        width: 180px;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-
-        button{
-            border: none;
-            outline: none;
-            width: 100%;
-            height: 40px;
-            border-radius: 12px;
-            color: white;
-            background-color: #19142b;
-        }
-
-        span{
-            color: white;
-        }
-    }
+.presentacion header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
+
+.presentacion header .idiomas {
+  width: 180px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.presentacion header .idiomas button {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 12px;
+  color: white;
+  background-color: #19142b;
+  cursor: pointer; 
+}
+
+.presentacion header .idiomas span {
+  color: white;
+}
+
 
 .presentacion .principal{
     width: 100%;
@@ -295,7 +297,16 @@
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
   border-radius: 12px;
+  filter: grayscale(100%);        
+    transition: filter 300ms ease
+}
+
+.project-card:hover{
+    .project-image img{
+        filter: none;
+    }
 }
 
 .project-title {
@@ -356,6 +367,66 @@
   background-color: white;
   color: black;
 }
+
+.stack-tecnologico {
+  width: 100%;
+  padding: 100px 20px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.titulo-stack {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #dbeafe; 
+  text-align: center;
+}
+
+.stack-grupo {
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.stack-grupo h3 {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 600;
+  flex: 1;
+}
+
+.stack-cajas {
+  flex: 3;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.stack-caja {
+  width: 70px;
+  height: 70px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.02);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.stack-caja img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.stack-caja:hover {
+  transform: translateY(-5px);
+}
+
 
 @keyframes bg{
     0%{background-position: 0% 50%;}
