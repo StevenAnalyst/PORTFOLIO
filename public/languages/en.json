@@ -1,3 +1,53 @@
 {
-    "Disponibilidad": "Available to work"
+  "header": {
+    "availability": "Available for work"
+  },
+  "profile": {
+    "title": "Software Developer. Adaptable.",
+    "from": "From",
+    "description": "Front-end developer specialized in creating attractive and functional interfaces, with solid backend experience. Committed to code quality, optimization and documentation, seeking new challenges to grow professionally.",
+    "cvButton": "View CV"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "project1": {
+      "title": "Etherium Game",
+      "description": "Turn-based attack video game that won second place at IngeniaTech as one of the best projects at the fair.",
+      "tech": "HTML · CSS · JavaScript"
+    },
+    "project2": {
+      "title": "Project Title",
+      "description": "Brief description of the project and its functionality.",
+      "tech": "React · Tailwind · Firebase"
+    },
+    "project3": {
+      "title": "Project Title",
+      "description": "Brief description of the project and its functionality.",
+      "tech": "Node.js · MongoDB · Express"
+    },
+    "viewProject": "View Project",
+    "viewCode": "View Code"
+  },
+  "stack": {
+    "title": "Tech Stack",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "databases": "Databases",
+    "tools": "Tools"
+  },
+  "toast": {
+    "emailCopied": "Email copied successfully ✅"
+  },
+  "aria": {
+    "languageSelector": "Language selector",
+    "changeToSpanish": "Change to Spanish",
+    "changeToEnglish": "Change to English",
+    "profilePhoto": "Steven Tobon Londoño's profile photo",
+    "statusAvailable": "Status: available",
+    "visitGithub": "Visit GitHub profile",
+    "visitLinkedin": "Visit LinkedIn profile",
+    "copyEmail": "Copy email to clipboard",
+    "projectImage": "Project screenshot",
+    "projectImagePlaceholder": "Project image coming soon"
+  }
 }

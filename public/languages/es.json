@@ -1,3 +1,53 @@
 {
-    "Disponibilidad": "Disponible para trabajar"
+  "header": {
+    "availability": "Disponible para trabajar"
+  },
+  "profile": {
+    "title": "Desarrollador de Software. Adaptable.",
+    "from": "From",
+    "description": "Desarrollador front-end especializado en crear interfaces atractivas y funcionales, con experiencia sólida en backend. Comprometido con la calidad del código, la optimización y la documentación, buscando nuevos desafíos para crecer profesionalmente.",
+    "cvButton": "Mirar CV"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "project1": {
+      "title": "Etherium Game",
+      "description": "Videojuego de ataque por turnos el cual ganó el segundo puesto en la IngeniaTech como uno de los mejores proyectos de la feria.",
+      "tech": "HTML · CSS · JavaScript"
+    },
+    "project2": {
+      "title": "Título del Proyecto",
+      "description": "Breve descripción del proyecto y su funcionalidad.",
+      "tech": "React · Tailwind · Firebase"
+    },
+    "project3": {
+      "title": "Título del Proyecto",
+      "description": "Breve descripción del proyecto y su funcionalidad.",
+      "tech": "Node.js · MongoDB · Express"
+    },
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Código"
+  },
+  "stack": {
+    "title": "Stack Tecnológico",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "databases": "Bases de datos",
+    "tools": "Herramientas"
+  },
+  "toast": {
+    "emailCopied": "Correo electrónico copiado correctamente ✅"
+  },
+  "aria": {
+    "languageSelector": "Selector de idioma",
+    "changeToSpanish": "Cambiar a español",
+    "changeToEnglish": "Cambiar a inglés",
+    "profilePhoto": "Foto de perfil de Steven Tobon Londoño",
+    "statusAvailable": "Estado: disponible",
+    "visitGithub": "Visitar perfil de GitHub",
+    "visitLinkedin": "Visitar perfil de LinkedIn",
+    "copyEmail": "Copiar correo electrónico al portapapeles",
+    "projectImage": "Captura de pantalla del proyecto",
+    "projectImagePlaceholder": "Imagen del proyecto próximamente"
+  }
 }
